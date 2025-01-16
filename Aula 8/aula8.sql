@@ -24,4 +24,4 @@ insert into cliente VALUES (10, 'Nelgrismar', '12378945654', '1969-04-20', 02);
 select * from tipocliente;
 select * from cliente;
 
-INSERT INTO cliente (i_cliente_cliente, s_nomecli_cliente, s_cpf_cliente, i_tipo_cliente) VALUES (11, 'Bartoldo', '33344455566', 02);
+INSERT INTO cliente (i_cliente_cliente, s_nome_cliente, s_cpf_cliente, i_tipo_cliente) VALUES (11, 'Bartoldo', '33344455566', 02);

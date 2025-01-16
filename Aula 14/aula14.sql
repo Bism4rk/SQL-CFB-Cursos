@@ -1,6 +1,6 @@
 select 
 	tbc.i_cliente_cliente as IDCliente, 
-    upper(tbc.s_nomecli_cliente) as NomeCliente, 
+    upper(tbc.s_nome_cliente) as NomeCliente, 
     tbc.i_tipo_cliente as TipoCliente,
     tbc.i_cliente_cliente * 2 as valorCliente
 from cliente tbc;

@@ -8,20 +8,20 @@ select
  select 
 	* 
     from 
-    (select i_cliente_cliente, s_nomecli_cliente from cliente) c;
+    (select i_cliente_cliente, s_nome_cliente from cliente) c;
    
  select 
-	c.s_nomecli_cliente
+	c.s_nome_cliente
     from 
-    (select i_cliente_cliente, s_nomecli_cliente from cliente) c;
+    (select i_cliente_cliente, s_nome_cliente from cliente) c;
     
   select 
-	c.s_nomecli_cliente,
+	c.s_nome_cliente,
     c.d_nasc_cliente
     from 
-    (select i_cliente_cliente, s_nomecli_cliente, d_nasc_cliente from cliente) c;   
+    (select i_cliente_cliente, s_nome_cliente, d_nasc_cliente from cliente) c;   
     
-create view nomescli as select i_cliente_cliente, s_nomecli_cliente from cliente;
+create view nomescli as select i_cliente_cliente, s_nome_cliente from cliente;
  
 select * from nomescli; 
  

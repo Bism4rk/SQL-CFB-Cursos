@@ -8,8 +8,8 @@ cláusulas que podem ser utilizadas em um SELECT
 - ORDER BY: ordena
 */
 
-select s_nomecli_cliente, s_cpf_cliente from cliente;
-select *, s_nomecli_cliente, s_cpf_cliente from cliente;
-select s_nomecli_cliente, i_tipo_cliente from cliente;
-select s_nomecli_cliente, i_tipo_cliente * 2 from cliente;
-select i_cliente_cliente, upper(s_nomecli_cliente), i_tipo_cliente from cliente;
+select s_nome_cliente, s_cpf_cliente from cliente;
+select *, s_nome_cliente, s_cpf_cliente from cliente;
+select s_nome_cliente, i_tipo_cliente from cliente;
+select s_nome_cliente, i_tipo_cliente * 2 from cliente;
+select i_cliente_cliente, upper(s_nome_cliente), i_tipo_cliente from cliente;

@@ -34,7 +34,7 @@ COLLATE = utf8mb4_0900_ai_ci;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `cfbcursos`.`cliente` (
   `i_cliente_cliente` INT NOT NULL AUTO_INCREMENT,
-  `s_nomecli_cliente` VARCHAR(30) NULL DEFAULT NULL,
+  `s_nome_cliente` VARCHAR(30) NULL DEFAULT NULL,
   `s_cpf_cliente` VARCHAR(50) NOT NULL,
   `d_nasc_cliente` DATETIME NULL DEFAULT NULL,
   `i_tipo_cliente` INT NOT NULL,

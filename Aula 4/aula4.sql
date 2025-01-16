@@ -7,7 +7,7 @@ create database cfbcursos;
 create table cliente(
 	-- nomenclatura: tipo_coluna_tabela
 	i_cliente_cliente int primary key auto_increment,
-    s_nomecli_cliente varchar(50) not null,
+    s_nome_cliente varchar(50) not null,
     s_cpf_cliente varchar(50) not null,
     d_nasc_cliente datetime
 );
@@ -16,7 +16,7 @@ create table cliente(
 DROP TABLE cliente; -- deleta a tabela
 DROP SCHEMA cfbcursos; -- deleta o banco de dados
 
-ALTER TABLE cliente MODIFY COLUMN s_nomecli_cliente VARCHAR(30);
+ALTER TABLE cliente MODIFY COLUMN s_nome_cliente VARCHAR(30);
 
 ALTER TABLE cliente add i_tipo_cliente INT default 1;
 ALTER TABLE cliente drop column i_tipo_cliente;

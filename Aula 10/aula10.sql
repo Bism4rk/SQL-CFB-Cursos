@@ -1,7 +1,7 @@
-update cliente set s_nomecli_cliente = 'Bruno B. Reichert', s_cpf_cliente = '86133802049 ' where i_cliente_cliente = 1;
+update cliente set s_nome_cliente = 'Bruno B. Reichert', s_cpf_cliente = '86133802049 ' where i_cliente_cliente = 1;
 select * from cliente;
 
-update cliente set s_nomecli_cliente = 'Bruno', s_cpf_cliente = '12345678901' where i_cliente_cliente = 1;
+update cliente set s_nome_cliente = 'Bruno', s_cpf_cliente = '12345678901' where i_cliente_cliente = 1;
 select * from cliente;
 
 update cliente set i_tipo_cliente = 1 WHERE i_cliente_cliente > 0;
